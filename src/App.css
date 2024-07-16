@@ -1,0 +1,69 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+header, footer {
+  background-color: #282c34;
+  color: white;
+}
+
+main {
+
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+
+
+.flip-container {
+  pointer-events: none;
+}
+.flip-card {
+  position: relative;
+}
+.flip-card img {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 3s;
+}
+.flip-card img.backImg {
+  opacity: 0;
+}
+.flip-container:hover .flip-card img.frontImg {
+  opacity: 0;
+}
+.flip-container:hover .flip-card img.backImg {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .flip-card img.frontImg {
+      opacity: 1;
+      transition: none; 
+  }
+  .flip-card img.backImg {
+      opacity: 0;
+      display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .flip-container {
+      pointer-events: auto;
+  }
+}
