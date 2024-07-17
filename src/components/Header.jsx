@@ -102,27 +102,27 @@ const Header = () => {
               role="navigation"
               aria-label="Main Menu"
             >
-                <Link to={"/"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+                <Link to={"/"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Home
               </Link>
               
-              <Link to={"/about"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/about"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 About Me
               </Link>
 
-              <Link to={"/experience"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/experience"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Experience
               </Link>
 
-              <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 My Tech Stack
               </Link>
               
-              <Link to={"/projects"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/projects"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Projects
               </Link>
 
-              <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-semibold p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Get In Touch
               </Link>
 
