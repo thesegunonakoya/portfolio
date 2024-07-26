@@ -47,7 +47,7 @@ const Main = () => {
         style={{ color: 'rgb(137, 148, 174)' }}
         className="mx-[13vw] md:mx-[30vw] mt-2 md:mt-3 text-[0.85rem] md:text-sm font-medium md:font-medium leading-[1.9] md:leading-relaxed"
       >
-        I&apos;m a passionate full-stack software developer, mostly proficient in a range of technologies including JavaScript, CSS3, Tailwind, PHP, WordPress, MongoDB, MySQL, PostgreSQL, and Git.
+        I&apos;m a curiosity-led full-stack software developer, mostly proficient in a range of technologies including JavaScript, CSS3, Tailwind, PHP, WordPress, MongoDB, MySQL, PostgreSQL, and Git.
       </h2>
       <div className="md:flex items-center grid-row-1 md:gap-5">
         <div>
