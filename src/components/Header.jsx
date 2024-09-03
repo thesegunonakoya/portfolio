@@ -38,7 +38,7 @@ const Header = () => {
             borderBottomStyle: 'solid',
           }}
         >
-          <CurrentlyPlaying /> {/* Use the new component here */}
+          <CurrentlyPlaying />
         </div>
 
         <div className="p-2">
@@ -89,7 +89,7 @@ const Header = () => {
 
       <div
         id="mobile-menu-overlay"
-        className="fixed inset-0 bg-[#111318] hidden flex-col items-center justify-center z-50"
+        className="fixed inset-0 bg-semi-transparent-blur hidden flex-col items-center justify-center z-50"
       >
         <button
           id="close"
@@ -99,27 +99,27 @@ const Header = () => {
           <img className="w-full h-full" src={Close} alt="close" />
         </button>
         <nav className="flex flex-col items-center justify-center gap-4 h-screen">
-          <Link to={"/"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Home
           </Link>
           
-          <Link to={"/about"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/about"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             About Me
           </Link>
       
-          <Link to={"/experience"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/experience"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Experience
           </Link>
       
-          <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/skill"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             My Tech Stack
           </Link>
           
-          <Link to={"/projects"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/projects"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Projects
           </Link>
       
-          <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/contact"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Get In Touch
           </Link>
         </nav>

@@ -184,4 +184,7 @@ body {
   }
 }
 
-
+.bg-semi-transparent-blur {
+  background-color: rgba(17, 19, 24, 0.7);
+  backdrop-filter: blur(10px);
+}
