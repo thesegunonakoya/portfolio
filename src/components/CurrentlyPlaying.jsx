@@ -3,11 +3,9 @@ import Spotify from '../assets/svg/spotify.svg';
 
 const CurrentlyPlaying = () => {
   const [currentlyPlaying, setCurrentlyPlaying] = useState('');
+  const [loading, setLoading] = useState(true);
 
   const fetchCurrentlyPlaying = async () => {
-    const currentlyPlayingElement = document.getElementById('currently-playing');
-    currentlyPlayingElement.innerHTML = '';
-
     const svgIcon = `<img src="${Spotify}" style="display: inline; vertical-align: middle; margin: 0 5px 0 3px;" />`;
 
     const currentHour = new Date().getHours();
@@ -34,14 +32,15 @@ const CurrentlyPlaying = () => {
 
       if (!data.item) {
         setCurrentlyPlaying(`${svgIcon} I'm not listening to anything at the moment 😴${endText} <span style='margin: 0 3px 0 3px;'>🎈</span>`);
-        return;
+      } else {
+        const artistName = data.item.artists[0].name;
+        setCurrentlyPlaying(`${svgIcon} I'm currently listening to <span style='color: rgb(92, 135, 246); margin: 0 3px 0 2px;'>${data.item.name}</span> by <span style='margin: 0 3px 0 3px;'>${artistName}</span> <span style='margin: 0 2px 0 2px;'>🎧</span> <span style='margin: 0 3px 0 3px;'>${endText}</span> <span style='margin: 0 3px 0 3px;'>🎈</span>`);
       }
-
-      const artistName = data.item.artists[0].name;
-      setCurrentlyPlaying(`${svgIcon} I'm currently listening to <span style='color: rgb(92, 135, 246); margin: 0 3px 0 2px;'>${data.item.name}</span> by <span style='margin: 0 3px 0 3px;'>${artistName}</span> <span style='margin: 0 2px 0 2px;'>🎧</span> <span style='margin: 0 3px 0 3px;'>${endText}</span> <span style='margin: 0 3px 0 3px;'>🎈</span>`);
     } catch (error) {
       console.error('Error fetching currently playing track:', error);
       setCurrentlyPlaying(`${svgIcon} I'm not listening to anything at the moment <span style='margin: 0 3px 0 3px;'>😴</span> ${endText} <span style='margin: 0 3px 0 3px;'>🎈</span>`);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -51,11 +50,15 @@ const CurrentlyPlaying = () => {
 
   return (
     <div className="scrolling-text">
-      <p
-        id="currently-playing"
-        className="text-[0.7rem] md:text-[0.7rem] font-medium md:font-medium text-[#E2EAFD]"
-        dangerouslySetInnerHTML={{ __html: currentlyPlaying }}
-      />
+      {loading ? (
+        <p className="text-[0.7rem] md:text-[0.7rem] font-medium md:font-medium text-transparent">Loading...</p>
+      ) : (
+        <p
+          id="currently-playing"
+          className="text-[0.7rem] md:text-[0.7rem] font-medium md:font-medium text-[#E2EAFD]"
+          dangerouslySetInnerHTML={{ __html: currentlyPlaying }}
+        />
+      )}
     </div>
   );
 };

@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import Hamburger from '../assets/svg/hamburger.svg';
 import Close from '../assets/svg/close.svg';
 import CurrentlyPlaying from './CurrentlyPlaying';
+import mailSvg from '../assets/svg/mail-ham.svg';
+import githubSvg from '../assets/svg/github-ham.svg';
+import linkedinSvg from '../assets/svg/linkedin-ham.svg';
+import instagramSvg from '../assets/svg/instagram-ham.svg';
+import whatsappSvg from '../assets/svg/whatsapp-ham.svg';
 
 const Header = () => {
   useEffect(() => {
@@ -122,6 +127,36 @@ const Header = () => {
           <Link to={"/contact"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Get In Touch
           </Link>
+
+          <div className="mt-7 block md:hidden">
+          <ul className="flex justify-center items-center flex-wrap gap-3">
+            <li className="mx-2 my-1">
+              <a href="mailto:thesegunonakoya@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img className="w-7 h-7" src={mailSvg} alt="Gmail" />
+              </a>
+            </li>
+            <li className="mx-2 my-1">
+              <a href="https://github.com/thesegunonakoya" target="_blank" rel="noopener noreferrer">
+                <img className="w-5 h-5" src={githubSvg} alt="GitHub" />
+              </a>
+            </li>
+            <li className="mx-2 my-1">
+              <a href="https://www.linkedin.com/in/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
+                <img className="w-5 h-5" src={linkedinSvg} alt="LinkedIn" />
+              </a>
+            </li>
+            <li className="mx-2 my-1">
+              <a href="https://www.instagram.com/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
+                <img className="w-5 h-5" src={instagramSvg} alt="Instagram" />
+              </a>
+            </li>
+            <li className="mx-2 my-1">
+              <a href="https://wa.me/2349033990067" target="_blank" rel="noopener noreferrer">
+                <img className="w-6 h-6" src={whatsappSvg} alt="WhatsApp" />
+              </a>
+            </li>
+          </ul>
+        </div>
         </nav>
       </div>
     </header>
