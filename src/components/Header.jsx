@@ -26,9 +26,17 @@ const Header = () => {
     document.getElementById('hamburger').addEventListener('click', handleHamburgerClick);
     document.getElementById('close').addEventListener('click', handleCloseClick);
 
+    const links = document.querySelectorAll('#mobile-menu-overlay nav a');
+    links.forEach(link => {
+      link.addEventListener('click', handleCloseClick);
+    });
+
     return () => {
       document.getElementById('hamburger').removeEventListener('click', handleHamburgerClick);
       document.getElementById('close').removeEventListener('click', handleCloseClick);
+      links.forEach(link => {
+        link.removeEventListener('click', handleCloseClick);
+      });
     };
   }, []);
 
