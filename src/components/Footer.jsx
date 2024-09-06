@@ -93,7 +93,7 @@ const Footer = () => {
       </section>
 
       {/* Mobile Footer */}
-      <section className="p-2 mb-5 md:mb-3">
+      <section className="p-2 mb-8 md:mb-3">
         <div className="block md:hidden">
           <ul className="flex justify-center items-center flex-wrap gap-3">
             <li className="mx-2 my-1">
@@ -122,6 +122,9 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+        </div>
+
+        <div className="mt-7 block md:hidden">
         </div>
       </section>
     </>
