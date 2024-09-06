@@ -10,6 +10,7 @@ import Experience from "./pages/Experience";
 import Skill from "./pages/Skill";
 import Projects from "./pages/Projects";
 import GetInTouch from "./pages/GetInTouch";
+import Certifications from "./pages/Certifications";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -47,6 +48,7 @@ const App = () => {
     <Route path='/skill' element={<Skill />} />
     <Route path='/projects' element={<Projects />} />
     <Route path='/contact' element={<GetInTouch />} /> 
+    <Route path='/certifications' element={<Certifications />} />
     </Routes>
     <Footer className="absolute bottom-0 w-full" />
   </div>
