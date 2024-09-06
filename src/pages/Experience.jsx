@@ -34,6 +34,10 @@ const Experience = () => {
         Experience 🛣️
       </h1>
       
+      <p className="text-left mx-[5vw] md:mx-[15vw] mt-4 text-[0.85rem] md:text-sm text-[#8994AE] leading-[1.9] md:leading-relaxed">
+        Here are some of the roles I've held over the years.
+      </p>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 mt-12 px-[5vw] md:px-[15vw]">
         {experiences.map((experience, index) => (
           <div key={index} className="text-left">

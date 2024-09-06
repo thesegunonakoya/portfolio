@@ -5,8 +5,13 @@ const About = () => {
     return (
         <div className="flex flex-col justify-center flex-grow text-center text-sm md:mt-12 animate-fadeInUp mb-16">
             <h1 className="text-left mt-2 mx-[5vw] md:mx-[20vw] text-[2.2rem] md:text-4xl tracking-[0.02em] md:tracking-normal leading-[2.45rem] font-semibold text-[#E2EAFD]">
-                About Me
+                Story Time 🌠
             </h1>
+
+            <p className="text-left mx-[5vw] md:mx-[20vw] mt-4 text-[0.85rem] md:text-sm text-[#8994AE] leading-[1.9] md:leading-relaxed">
+            Get to know the person behind the code—my background, passions, and what drives me.
+      </p>
+
             
             <div className="text-left mx-[5vw] md:mx-[20vw] mt-5 space-y-5">
                 <h2 className="text-[0.85rem] md:text-sm font-medium leading-[1.9] md:leading-relaxed text-[#8994AE]">
