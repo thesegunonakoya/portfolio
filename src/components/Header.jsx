@@ -74,6 +74,10 @@ const Header = () => {
                 Experience
               </Link>
 
+              <Link to={"/certifications"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+                Certifications
+              </Link>
+
               <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 My Tech Stack
               </Link>
@@ -85,6 +89,8 @@ const Header = () => {
               <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Get In Touch
               </Link>
+
+              
 
             </div>
             <div id="mobile-menu" className="md:hidden p-2 z-50">
