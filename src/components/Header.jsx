@@ -129,6 +129,10 @@ const Header = () => {
           <Link to={"/experience"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Experience
           </Link>
+
+          <Link to={"/certifications"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+            Certifications
+          </Link>
       
           <Link to={"/skill"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             My Tech Stack
