@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import avi from '../assets/img/avi.jpg';
 import topRight from '../assets/svg/top-right.svg';
 
@@ -56,12 +57,9 @@ const Main = () => {
           </button>
         </div>
         <div className="hidden md:block">
-          <a
-            href="https://thesegunonakoya.me/contact.html"
-            className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#5C87F6] transition duration-[2s] ease-in-out"
-          >
+        <Link to={"/contact"} className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#5C87F6] transition duration-[2s] ease-in-out">
             Get In Touch
-          </a>
+          </Link>
         </div>
       </div>
     </main>
