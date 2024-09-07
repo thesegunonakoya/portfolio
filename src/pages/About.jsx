@@ -17,7 +17,7 @@ const About = () => {
           The Beginning 🌱
         </h2>
         <p className="text-[0.85rem] md:text-sm font-medium leading-[1.9] md:leading-relaxed text-[#8994AE]">
-          Hello, gorgeous stranger! You probably already knew this, but I&apos;m a curiosity-led full-stack software developer, mostly proficient in a range of <Link to={"/skill"} className="text-[#1DA1F2] hover:underline">technologies</Link>, including JavaScript, HTML, CSS, Tailwind, PHP, WordPress, MongoDB, Bootstrap, MySQL, and Git.
+          Hello, gorgeous stranger! You probably already knew this, but I&apos;m a curiosity-led full-stack <Link to={"/"} className="text-[#1DA1F2] hover:underline">software developer</Link>, mostly proficient in a range of <Link to={"/skill"} className="text-[#1DA1F2] hover:underline">technologies</Link>, including JavaScript, HTML, CSS, Tailwind, PHP, WordPress, MongoDB, Bootstrap, MySQL, and Git.
         </p>
 
         <h2 className="text-[1rem] md:text-lg font-semibold leading-[1.9] md:leading-relaxed text-[#E2EAFD]">
@@ -59,7 +59,7 @@ const About = () => {
           Embracing Full-Stack Development 🌐
         </h2>
         <p className="text-[0.85rem] md:text-sm font-medium leading-[1.9] md:leading-relaxed text-[#8994AE]">
-          Fast-forward to late 2023 and early 2024, I ventured into full-stack software development, embarking on an exhilarating journey. Despite the inevitable challenges of debugging and troubleshooting, I find joy in every step, seeing each setback as an opportunity to learn and grow.
+          Fast-forward to late 2023 and early 2024, I ventured into full-stack <Link to={"/projects"} className="text-[#1DA1F2] hover:underline">software development</Link>, embarking on an exhilarating journey. Despite the inevitable challenges of debugging and troubleshooting, I find joy in every step, seeing each setback as an opportunity to learn and grow.
         </p>
 
         <h2 className="text-[1rem] md:text-lg font-semibold leading-[1.9] md:leading-relaxed text-[#E2EAFD]">
@@ -73,7 +73,7 @@ const About = () => {
           Beyond Coding 🎵
         </h2>
         <p className="text-[0.85rem] md:text-sm font-medium leading-[1.9] md:leading-relaxed text-[#8994AE]">
-          In my free time, I love working on play projects and engaging in activities that foster my creativity. When I&rsquo;m not coding, you will find me jamming to my Spotify playlist or trying to complete another daily challenge in Sudoku.
+          In my free time, I love working on play <Link to={"/projects"} className="text-[#1DA1F2] hover:underline">projects</Link> and engaging in activities that foster my creativity. When I&rsquo;m not coding, you will find me jamming to my Spotify playlist or trying to complete another daily challenge in Sudoku.
         </p>
 
         <h2 className="text-[1rem] md:text-lg font-semibold leading-[1.9] md:leading-relaxed text-[#E2EAFD]">
