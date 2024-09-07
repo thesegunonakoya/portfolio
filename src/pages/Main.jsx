@@ -5,7 +5,7 @@ import topRight from '../assets/svg/top-right.svg';
 
 const Main = () => {
   return (
-    <main className="flex flex-col items-center justify-center flex-grow text-center md:mt-0 mb-5">
+    <main className="flex flex-col items-center justify-center flex-grow text-center md:mt-0 mb-5 animate-fadeInUp">
       <div className="flip-container w-40 h-40 md:w-48 md:h-48">
         <div className="flip-card w-full h-full">
           <img
