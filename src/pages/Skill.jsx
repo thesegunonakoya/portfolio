@@ -3,15 +3,18 @@ import React from "react";
 const TechStacks = () => {
   const techSkills = [
     { name: "JavaScript", description: "The language I breathe. From building dynamic UIs to handling APIs, JS is my go-to." },
-    { name: "Tailwind CSS", description: "Utility-first CSS framework, perfect for building modern, responsive designs with ease." },
     { name: "React", description: "The front-end library that powers my projects, making UI building fast and efficient." },
     { name: "TypeScript", description: "Enhances my JS with static typing, ensuring cleaner, more predictable code." },
-    { name: "PHP", description: "Backend logic for dynamic web apps and CMS like WordPress." },
-    { name: "WordPress", description: "CMS platform for building scalable websites and e-commerce solutions." },
+    { name: "Node.js", description: "For server-side JavaScript development." },
+    { name: "APIs", description: "Building and integrating APIs to enable communication between different software systems." },
+    { name: "Git", description: "Version control system, because every line of code deserves to be tracked." },
+    { name: "Responsive Design", description: "Ability to create web applications that work on various devices and screen sizes." },
+    { name: "Tailwind CSS", description: "Utility-first CSS framework, perfect for building modern, responsive designs with ease." },
     { name: "MongoDB", description: "Non-relational database for handling data with flexibility and speed." },
     { name: "MySQL & PostgreSQL", description: "Relational databases for structured data and secure queries." },
-    { name: "Git", description: "Version control system, because every line of code deserves to be tracked." },
-  ];
+    { name: "PHP", description: "Backend logic for dynamic web apps and CMS like WordPress." },
+    { name: "WordPress", description: "CMS platform for building scalable websites and e-commerce solutions." },
+];
 
   return (
     <>
