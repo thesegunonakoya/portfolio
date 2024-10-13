@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import avi from '../assets/img/avi.jpg';
-import topRight from '../assets/svg/top-right.svg';
+import React from "react";
+import { Link } from "react-router-dom";
+import avi from "../assets/img/avi.jpg";
+import topRight from "../assets/svg/top-right.svg";
 
 const Main = () => {
   return (
@@ -12,21 +12,21 @@ const Main = () => {
             src={avi}
             alt="Oluwasegun Onakoya"
             className="css-after-gradiant frontImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full"
-            style={{ borderColor: 'rgb(32, 36, 45)', borderWidth: '1px' }}
+            style={{ borderColor: "rgb(32, 36, 45)", borderWidth: "1px" }}
           />
           <img
             src={avi}
             alt="Oluwasegun Onakoya"
             className="backImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full"
-            style={{ borderColor: 'rgb(92, 135, 246)', borderWidth: '1px' }}
+            style={{ borderColor: "rgb(92, 135, 246)", borderWidth: "1px" }}
           />
         </div>
       </div>
 
       <h1 className="mt-2 md:mt-3 mx-5 md:mx-0 text-[2.2rem] md:text-4xl tracking-[0.02em] md:tracking-normal leading-[2.45rem] font-semibold md:font-semibold text-[#E2EAFD]">
-        Oluwasegun<span className='hidden md:inline'>{' '}</span>
-        <br className="inline md:hidden"/>
-        Onakoya{' '}
+        Oluwasegun<span className="hidden md:inline"> </span>
+        <br className="inline md:hidden" />
+        Onakoya{" "}
         <span className="inline-block">
           <svg
             stroke="currentColor"
@@ -34,7 +34,11 @@ const Main = () => {
             strokeWidth="0"
             viewBox="0 0 256 256"
             color="#60A5FA"
-            style={{ color: '#60A5FA', verticalAlign: 'middle', display: 'inline-block' }}
+            style={{
+              color: "#60A5FA",
+              verticalAlign: "middle",
+              display: "inline-block",
+            }}
             height="17"
             width="17"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,19 +49,36 @@ const Main = () => {
       </h1>
 
       <h2
-        style={{ color: 'rgb(137, 148, 174)' }}
+        style={{ color: "rgb(137, 148, 174)" }}
         className="mx-[13vw] md:mx-[30vw] mt-2 md:mt-3 text-[0.85rem] md:text-sm font-medium md:font-medium leading-[1.9] md:leading-relaxed"
       >
-        I&apos;m a curiosity-led full-stack software developer, mostly proficient in a range of technologies including JavaScript, HTML5, CSS3, React, Node.js, PHP, MongoDB, MySQL, PostgreSQL, Git, Tailwind CSS, WordPress, and Vercel.
+        I&apos;m a curiosity-led full-stack software developer, mostly
+        proficient in a range of technologies including JavaScript, HTML5, CSS3,
+        React, Node.js, PHP, MongoDB, MySQL, PostgreSQL, Git, Tailwind CSS,
+        WordPress, and Vercel.
       </h2>
       <div className="md:flex items-center grid-row-1 md:gap-5">
         <div>
-          <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#15181e] text-[#5C87F6] hover:text-[#5C87F6] md:text-sm border-[1px] border-[#20242d] hover:border-[#5C87F6]/50 transition duration-[3s] ease-in-out">
-            Download Resume <img className="w-4 h-4 md:w-5 md:h-5" src={topRight} alt="download" />
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1AyO0raOUV0gPgaSc-GUNgt3pB7yszywH/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#15181e] text-[#5C87F6] hover:text-[#5C87F6] md:text-sm border-[1px] border-[#20242d] hover:border-[#5C87F6]/50 transition duration-[3s] ease-in-out">
+              Download Resume{" "}
+              <img
+                className="w-4 h-4 md:w-5 md:h-5"
+                src={topRight}
+                alt="download"
+              />
+            </button>
+          </a>
         </div>
         <div className="hidden md:block">
-        <Link to={"/contact"} className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#5C87F6] transition duration-[2s] ease-in-out">
+          <Link
+            to={"/contact"}
+            className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#5C87F6] transition duration-[2s] ease-in-out"
+          >
             Get In Touch
           </Link>
         </div>
