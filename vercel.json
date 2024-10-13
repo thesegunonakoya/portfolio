@@ -1,16 +1,17 @@
 {
-  "build": {
-    "env": {
-      "NODE_VERSION": "14.x"
-    }
-  },
-  "rewrites": [
-    { "source": "/about", "destination": "/index.html" },
-    { "source": "/experience", "destination": "/index.html" },
-    { "source": "/certifications", "destination": "/index.html" },
-    { "source": "/skill", "destination": "/index.html" },
-    { "source": "/projects", "destination": "/index.html" },
-    { "source": "/contact", "destination": "/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
+    "build": {
+      "env": {
+        "NODE_VERSION": "14.x"
+      }
+    },
+    "rewrites": [
+      { "source": "/about", "destination": "/index.html" },
+      { "source": "/experience", "destination": "/index.html" },
+      { "source": "/certifications", "destination": "/index.html" },
+      { "source": "/skill", "destination": "/index.html" },
+      { "source": "/projects", "destination": "/index.html" },
+      { "source": "/contact", "destination": "/index.html" },
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
+  }
+  
