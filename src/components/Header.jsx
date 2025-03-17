@@ -86,12 +86,13 @@ const Header = () => {
                 Projects
               </Link>
 
+              <Link to={"/blog"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+                Blog
+              </Link>
+
               <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Get In Touch
               </Link>
-
-              
-
             </div>
             <div id="mobile-menu" className="md:hidden p-2 z-50">
               <button
@@ -141,40 +142,44 @@ const Header = () => {
           <Link to={"/projects"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Projects
           </Link>
+
+          <Link to={"/blog"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+            Blog
+          </Link>
       
           <Link to={"/contact"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
             Get In Touch
           </Link>
 
           <div className="mt-7 block md:hidden">
-          <ul className="flex justify-center items-center flex-wrap gap-3">
-            <li className="mx-2 my-1">
-              <a href="mailto:thesegunonakoya@gmail.com" target="_blank" rel="noopener noreferrer">
-                <img className="w-7 h-7" src={mailSvg} alt="Gmail" />
-              </a>
-            </li>
-            <li className="mx-2 my-1">
-              <a href="https://github.com/thesegunonakoya" target="_blank" rel="noopener noreferrer">
-                <img className="w-5 h-5" src={githubSvg} alt="GitHub" />
-              </a>
-            </li>
-            <li className="mx-2 my-1">
-              <a href="https://www.linkedin.com/in/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
-                <img className="w-5 h-5" src={linkedinSvg} alt="LinkedIn" />
-              </a>
-            </li>
-            <li className="mx-2 my-1">
-              <a href="https://www.instagram.com/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
-                <img className="w-5 h-5" src={instagramSvg} alt="Instagram" />
-              </a>
-            </li>
-            <li className="mx-2 my-1">
-              <a href="https://wa.me/2349033990067" target="_blank" rel="noopener noreferrer">
-                <img className="w-6 h-6" src={whatsappSvg} alt="WhatsApp" />
-              </a>
-            </li>
-          </ul>
-        </div>
+            <ul className="flex justify-center items-center flex-wrap gap-3">
+              <li className="mx-2 my-1">
+                <a href="mailto:thesegunonakoya@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <img className="w-7 h-7" src={mailSvg} alt="Gmail" />
+                </a>
+              </li>
+              <li className="mx-2 my-1">
+                <a href="https://github.com/thesegunonakoya" target="_blank" rel="noopener noreferrer">
+                  <img className="w-5 h-5" src={githubSvg} alt="GitHub" />
+                </a>
+              </li>
+              <li className="mx-2 my-1">
+                <a href="https://www.linkedin.com/in/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
+                  <img className="w-5 h-5" src={linkedinSvg} alt="LinkedIn" />
+                </a>
+              </li>
+              <li className="mx-2 my-1">
+                <a href="https://www.instagram.com/thesegunonakoya/" target="_blank" rel="noopener noreferrer">
+                  <img className="w-5 h-5" src={instagramSvg} alt="Instagram" />
+                </a>
+              </li>
+              <li className="mx-2 my-1">
+                <a href="https://wa.me/2349033990067" target="_blank" rel="noopener noreferrer">
+                  <img className="w-6 h-6" src={whatsappSvg} alt="WhatsApp" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>

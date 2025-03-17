@@ -50,12 +50,12 @@ const Main = () => {
 
       <h2
         style={{ color: "rgb(137, 148, 174)" }}
-        className="mx-[13vw] md:mx-[30vw] mt-2 md:mt-3 text-[0.85rem] md:text-sm font-medium md:font-medium leading-[1.9] md:leading-relaxed"
+        className="mx-[13vw] md:mx-[32vw] mt-2 md:mt-3 text-[0.85rem] md:text-sm font-medium md:font-medium leading-[1.9] md:leading-relaxed"
       >
-        I&apos;m a curiosity-led full-stack software developer, mostly
-        proficient in a range of technologies including JavaScript, HTML5, CSS3,
-        React, Node.js, PHP, MongoDB, MySQL, PostgreSQL, Git, Tailwind CSS,
-        WordPress, and Vercel.
+        I&apos;m a curiosity-driven full-stack software developer who&apos;s
+        secretly more in love with the backend than I let on. Picture me as a
+        slightly confused coder, navigating the wild world of tech and juggling
+        it all — yet somehow still making it work!
       </h2>
       <div className="md:flex items-center grid-row-1 md:gap-5">
         <div>
@@ -82,6 +82,14 @@ const Main = () => {
             Get In Touch
           </Link>
         </div>
+      </div>
+
+      <div className="fixed bottom-5 right-8 mb-2 mr-2 md:mb-5 md:mr-5 text-xs md:text-[10px] font-medium text-[#E2EAFD] z-[100] hidden md:block text-right">
+        <a
+            href="https://thesegunonakoya.me"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Built with code, caffeine,<br />and a healthy dose of<br />imposter syndrome</a>
       </div>
     </main>
   );
