@@ -55,7 +55,7 @@ const Main = () => {
         I&apos;m a curiosity-driven full-stack software developer who&apos;s
         secretly more in love with the backend than I let on. Picture me as a
         slightly confused coder, navigating the wild world of tech and juggling
-        it all — yet somehow still making it work!
+        it all; yet somehow still making it work!
       </h2>
       <div className="md:flex items-center grid-row-1 md:gap-5">
         <div>
