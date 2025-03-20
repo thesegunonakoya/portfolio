@@ -13,6 +13,7 @@ import GetInTouch from "./pages/GetInTouch";
 import Certifications from "./pages/Certifications";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -53,6 +54,7 @@ const App = () => {
               <Route path="/certifications" element={<Certifications />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer className="absolute bottom-0 w-full" />
           </div>

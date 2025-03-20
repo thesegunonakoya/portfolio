@@ -83,6 +83,7 @@ const Main = () => {
           </Link>
         </div>
       </div>
+      
 
       <div className="fixed bottom-5 right-8 mb-2 mr-2 md:mb-5 md:mr-5 text-xs md:text-[10px] font-medium text-[#E2EAFD] z-[100] hidden md:block text-right">
         <a
