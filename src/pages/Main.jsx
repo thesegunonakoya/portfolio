@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import avi from "../assets/img/avi.jpg";
+import avi from "../assets/img/avi-new.jpg";
 import topRight from "../assets/svg/top-right.svg";
+import "../index.css";
 
 const Main = () => {
   return (
@@ -11,14 +12,14 @@ const Main = () => {
           <img
             src={avi}
             alt="Oluwasegun Onakoya"
-            className="css-after-gradiant frontImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full"
-            style={{ borderColor: "rgb(32, 36, 45)", borderWidth: "1px" }}
+            className="frontImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full relative"
+            style={{ borderColor: "rgb(32, 36, 45)", borderWidth: "1px", filter: "brightness(80%)" }}
           />
           <img
             src={avi}
             alt="Oluwasegun Onakoya"
-            className="backImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full"
-            style={{ borderColor: "rgb(92, 135, 246)", borderWidth: "1px" }}
+            className="backImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full relative"
+            style={{ borderColor: "rgb(92, 135, 246)", borderWidth: "1px", filter: "brightness(80%)" }}
           />
         </div>
       </div>
@@ -64,7 +65,7 @@ const Main = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#15181e] text-[#5C87F6] hover:text-[#5C87F6] md:text-sm border-[1px] border-[#20242d] hover:border-[#5C87F6]/50 transition duration-[3s] ease-in-out">
+            <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#000] text-[#5C87F6] hover:text-[#5C87F6] md:text-sm border-[1px] border-[#20242d] hover:border-[#5C87F6]/50 transition duration-[3s] ease-in-out">
               Download Resume{" "}
               <img
                 className="w-4 h-4 md:w-5 md:h-5"
@@ -83,14 +84,19 @@ const Main = () => {
           </Link>
         </div>
       </div>
-      
 
       <div className="fixed bottom-5 right-8 mb-2 mr-2 md:mb-5 md:mr-5 text-xs md:text-[10px] font-medium text-[#E2EAFD] z-[100] hidden md:block text-right">
         <a
-            href="https://thesegunonakoya.me"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Built with code, caffeine,<br />and a healthy dose of<br />imposter syndrome</a>
+          href="https://thesegunonakoya.me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Built with code, caffeine,
+          <br />
+          and a healthy dose of
+          <br />
+          imposter syndrome
+        </a>
       </div>
     </main>
   );

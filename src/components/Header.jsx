@@ -41,10 +41,10 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-[#111318]">
-      <section className="bg-[#111318]">
+    <header className="bg-black">
+      <section className="bg-black">
         <div
-          className="w-full overflow-hidden bg-[#15181e] py-4"
+          className="w-full overflow-hidden bg-[#000] py-5"
           style={{
             borderBottomColor: 'rgb(32, 36, 45)',
             borderBottomWidth: '1px',
@@ -87,8 +87,8 @@ const Header = () => {
               </Link>
 
               <Link to={"/blog"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
-                Blog
-              </Link>
+                Blog 
+              </Link> 
 
               <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
                 Get In Touch
