@@ -2,11 +2,11 @@ import React from "react";
 
 const Projects = () => {
   const projects = [
-    { name: "Portfolio Website", description: "A personal website to showcase my skills, projects, and resume.", link: "#" },
-    { name: "E-commerce Platform", description: "A full-featured e-commerce platform with user authentication, product management, and payment integration.", link: "#" },
-    { name: "Blog CMS", description: "A content management system for creating and managing blog posts with rich text editing and media uploads.", link: "#" },
-    { name: "Chat Application", description: "A real-time chat application with WebSocket integration for instant messaging.", link: "#" },
-    { name: "Task Manager", description: "A task management tool to organize and prioritize tasks with deadlines and reminders.", link: "#" },
+    { name: "This Website", description: "a personal website and portfolio to showcase every shade of me.", link: "https://thesegunonakoya.me" },
+    { name: "Speedxy", description: "a fast and accurate internet speed testing tool. i got tired of using other tools so i built mine", link: "https://speedxy.syho.site/" },
+    // { name: "Blog CMS", description: "A content management system for creating and managing blog posts with rich text editing and media uploads.", link: "#" },
+    // { name: "Chat Application", description: "A real-time chat application with WebSocket integration for instant messaging.", link: "#" },
+    // { name: "Task Manager", description: "A task management tool to organize and prioritize tasks with deadlines and reminders.", link: "#" },
   ];
 
   return (
