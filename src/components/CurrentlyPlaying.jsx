@@ -34,7 +34,7 @@ const CurrentlyPlaying = () => {
         setCurrentlyPlaying(`${svgIcon} I'm not listening to anything at the moment 😴${endText} <span style='margin: 0 3px 0 3px;'>🎈</span>`);
       } else {
         const artistName = data.item.artists[0].name;
-        setCurrentlyPlaying(`${svgIcon} I'm currently listening to <span style='color: #eadabe; margin: 0 3px 0 2px;'>${data.item.name}</span> by <span style='margin: 0 3px 0 3px;'>${artistName}</span> <span style='margin: 0 2px 0 2px;'>🎧</span> <span style='margin: 0 3px 0 3px;'>${endText}</span> <span style='margin: 0 3px 0 3px;'>🎈</span>`);
+        setCurrentlyPlaying(`${svgIcon} I'm currently listening to <span style='color: #eadabe; margin: 0 3px 0 2px;'>${data.item.name}</span> by <span style='color: #eadabe; margin: 0 3px 0 3px;'>${artistName}</span> <span style='margin: 0 2px 0 2px;'>🎧</span> <span style='margin: 0 3px 0 3px;'>${endText}</span> <span style='margin: 0 3px 0 3px;'>🎈</span>`);
       }
     } catch (error) {
       console.error('Error fetching currently playing track:', error);
