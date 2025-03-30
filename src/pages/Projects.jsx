@@ -2,9 +2,9 @@ import React from "react";
 
 const Projects = () => {
   const projects = [
-    { name: "This Website", description: "a personal website and portfolio to showcase every shade of me.", link: "https://thesegunonakoya.me" },
-    { name: "Speedxy", description: "a fast and accurate internet speed testing tool. i got tired of using other tools so i built mine", link: "https://speedxy.syho.site/" },
-    { name: "Spotify Currently Playing", description: "a serverless integration on my portfolio that utilizes the Spotify API to retrieve real-time data about the currently playing song on my Spotify", link: "https://github.com/thesegunonakoya/spotify-currently-playing" },
+    { name: "This Website", description: "a portfolio, yes, but i wouldn&apos;t blame you for thinking something else.", link: "https://thesegunonakoya.me" },
+    { name: "Speedxy", description: "an internet speed testing tool i trust because i built it myself.", link: "https://speedxy.syho.site/" },
+    { name: "Spotify Currently Playing", description: "a serverless integration on my portfolio that utilizes the Spotify API to retrieve real-time data about my currently playing song on Spotify.", link: "https://github.com/thesegunonakoya/spotify-currently-playing" },
     // { name: "Chat Application", description: "A real-time chat application with WebSocket integration for instant messaging.", link: "#" },
     // { name: "Task Manager", description: "A task management tool to organize and prioritize tasks with deadlines and reminders.", link: "#" },
   ];
