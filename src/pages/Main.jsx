@@ -53,10 +53,7 @@ const Main = () => {
         style={{ color: "rgb(137, 148, 174)" }}
         className="mx-[13vw] md:mx-[32vw] mt-2 md:mt-3 text-[0.85rem] md:text-sm font-medium md:font-medium leading-[1.9] md:leading-relaxed"
       >
-        I&apos;m a curiosity-driven full-stack software developer who&apos;s
-        secretly more in love with the backend than I let on. Picture me as a
-        slightly confused coder, navigating the wild world of tech and juggling
-        it all; yet somehow still making it work!
+        I&apos;m a curiosity-driven software developer, with a soft spot for the backend, a growing obsession with automation, increasingly AI-fluent. always building, always tweaking and usually learning something in the process. still figuring it out. still showing up.
       </h2>
       <div className="md:flex items-center grid-row-1 md:gap-5">
         <div>
