@@ -62,35 +62,35 @@ const Header = () => {
               role="navigation"
               aria-label="Main Menu"
             >
-              <Link to={"/"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Home
               </Link>
               
-              <Link to={"/about"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/about"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 About Me
               </Link>
 
-              <Link to={"/experience"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/experience"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Experience
               </Link>
 
-              <Link to={"/certifications"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/certifications"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Certifications
               </Link>
 
-              <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/skill"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 My Tech Stack
               </Link>
               
-              <Link to={"/projects"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/projects"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Projects
               </Link>
 
-              <Link to={"/blog"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/blog"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Blog 
               </Link> 
 
-              <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+              <Link to={"/contact"} className="text-sm md:text-xs font-normal md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
                 Get In Touch
               </Link>
             </div>
@@ -119,35 +119,35 @@ const Header = () => {
           <img className="w-full h-full" src={Close} alt="close" />
         </button>
         <nav className="flex flex-col items-center justify-center gap-4 h-screen">
-          <Link to={"/"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Home
           </Link>
           
-          <Link to={"/about"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/about"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             About Me
           </Link>
       
-          <Link to={"/experience"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/experience"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Experience
           </Link>
 
-          <Link to={"/certifications"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/certifications"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Certifications
           </Link>
       
-          <Link to={"/skill"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/skill"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             My Tech Stack
           </Link>
           
-          <Link to={"/projects"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/projects"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Projects
           </Link>
 
-          <Link to={"/blog"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/blog"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Blog
           </Link>
       
-          <Link to={"/contact"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#5C87F6]">
+          <Link to={"/contact"} className="text-sm md:text-xs font-bold md:font-normal p-2 underline-animation text-[#8994AE] hover:text-[#eadabe]">
             Get In Touch
           </Link>
 

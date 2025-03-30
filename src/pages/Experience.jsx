@@ -50,7 +50,7 @@ const Experience = () => {
             <p className="text-[0.85rem] md:text-sm font-medium leading-[1.9] text-[#C7D4E4]">
               {experience.description}
             </p>
-            <a href={experience.link} className="mt-2 inline-block text-[#1DA1F2] hover:underline">
+            <a href={experience.link} className="mt-2 inline-block text-[#eadabe] hover:underline">
               View Details
             </a>
           </div>

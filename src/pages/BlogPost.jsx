@@ -20,7 +20,7 @@ const BlogPost = () => {
       </Helmet>
       <div className="flex flex-col justify-center flex-grow text-center text-sm md:mt-12 animate-fadeInUp mb-16">
         <div className="text-left mx-[5vw] md:mx-[20vw] mt-8">
-          <Link to="/blog" className="text-[#1DA1F2] hover:underline">
+          <Link to="/blog" className="text-[#eadabe] hover:underline">
             ← Back to Blog
           </Link>
         </div>

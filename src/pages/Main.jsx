@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import avi from "../assets/img/avi-new.jpg";
+import avi from "../assets/img/avi-toon.jpg";
 import topRight from "../assets/svg/top-right.svg";
 import "../index.css";
 
@@ -13,13 +13,13 @@ const Main = () => {
             src={avi}
             alt="Oluwasegun Onakoya"
             className="frontImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full relative"
-            style={{ borderColor: "rgb(32, 36, 45)", borderWidth: "1px", filter: "brightness(80%)" }}
+            style={{ borderColor: "#eadabe", borderWidth: "1px", filter: "brightness(80%)" }}
           />
           <img
             src={avi}
             alt="Oluwasegun Onakoya"
             className="backImg w-40 h-40 md:w-44 md:h-44 p-2 rounded-full relative"
-            style={{ borderColor: "rgb(92, 135, 246)", borderWidth: "1px", filter: "brightness(80%)" }}
+            style={{ borderColor: "#eadabe", borderWidth: "1px", filter: "brightness(80%)" }}
           />
         </div>
       </div>
@@ -34,9 +34,9 @@ const Main = () => {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 256 256"
-            color="#60A5FA"
+            color="#eadabe"
             style={{
-              color: "#60A5FA",
+              color: "#eadabe",
               verticalAlign: "middle",
               display: "inline-block",
             }}
@@ -65,7 +65,7 @@ const Main = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#000] text-[#5C87F6] hover:text-[#5C87F6] md:text-sm border-[1px] border-[#20242d] hover:border-[#5C87F6]/50 transition duration-[3s] ease-in-out">
+            <button className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-[0.85rem] bg-[#000] text-[#eadabe] hover:text-[#eadabe] md:text-sm border-[1px] border-[#20242d] hover:border-[#eadabe]/50 transition duration-[3s] ease-in-out">
               Download Resume{" "}
               <img
                 className="w-4 h-4 md:w-5 md:h-5"
@@ -78,7 +78,7 @@ const Main = () => {
         <div className="hidden md:block">
           <Link
             to={"/contact"}
-            className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#5C87F6] transition duration-[2s] ease-in-out"
+            className="flex gap-2 mt-5 px-5 pt-4 pb-5 font-semibold md:font-medium text-xs md:text-sm bg-transparent text-[#8994AE] hover:text-[#eadabe] transition duration-[2s] ease-in-out"
           >
             Get In Touch
           </Link>

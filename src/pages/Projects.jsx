@@ -30,7 +30,7 @@ const Projects = () => {
               <p className="mt-2 text-[0.85rem] md:text-sm text-[#8994AE] leading-[1.8]">
                 {project.description}
               </p>
-              <a href={project.link} className="mt-2 inline-block text-[#1DA1F2] hover:underline">
+              <a href={project.link} className="mt-2 inline-block text-[#eadabe] hover:underline">
                 View Project
               </a>
             </div>

@@ -55,7 +55,7 @@ const Certifications = () => {
               href={certification.link}
               target="_blank"
               rel="noreferrer"
-              className="mt-2 inline-block text-[#1DA1F2] hover:underline"
+              className="mt-2 inline-block text-[#eadabe] hover:underline"
             >
               View Certificate
             </a>
