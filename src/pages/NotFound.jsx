@@ -7,7 +7,7 @@ const NotFound = () => {
       <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1024 768"
-      className="mx-auto h-56 w-auto text-black sm:h-64 dark:text-gray-100"
+      className="mx-auto h-44 w-auto text-black sm:h-52 dark:text-gray-100"
     >
       <g fill="none" fillRule="evenodd">
         <g fill="#eadabe">
