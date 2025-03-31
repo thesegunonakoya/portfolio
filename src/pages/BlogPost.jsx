@@ -18,7 +18,7 @@ const BlogPost = () => {
         <title>{post.title}</title>
         <meta name="description" content={post.description} />
       </Helmet>
-      <div className="flex flex-col justify-center flex-grow text-center text-sm md:mt-12 animate-fadeInUp mb-16">
+      <div className="flex flex-col justify-center flex-grow text-center text-sm md:mt-12 animate-fadeInUp mb-16 mx-3 md:mx-0">
         <div className="text-left mx-[5vw] md:mx-[20vw] mt-8">
           <Link to="/blog" className="text-[#eadabe] hover:underline">
             ← Back to Blog
